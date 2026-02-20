@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="B=F,o5?2)f~dH9A]dzVA">myImage</variable><variable id="sW*t+SYz(IuYW/xD|v!X">list</variable></variables><block type="function_definition" id="vi6frWtoz{PJ7ORX^W0Q" x="253" y="-211"><mutation name="RollDice" functionid="PUA$U3zSKAS*](7o/G6e"></mutation><field name="function_name">RollDice</field><statement name="STACK"><block type="device_show_image_offset" id="[AvLA%AA2Bj-:^X*.k=)"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="lists_index_get" id="J|NYd`PqO:ioc*aJ|V:y"><value name="LIST"><block type="variables_get" id="6ZcfjM^^uMX-zeafYe27"><field name="VAR" id="sW*t+SYz(IuYW/xD|v!X">list</field></block></value><value name="INDEX"><shadow type="math_number" id="_][sjqI_,|Fnw!-+|)7,"><field name="NUM">0</field></shadow><block type="device_random" id="Ms#0K3#j)sn_%kD^e{d."><value name="min"><shadow type="math_number" id="%MAUsZBkW2aoFO:$$Q`_"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="@k7MZqC7K%dtH^(]S/K6"><field name="NUM">5</field></shadow></value></block></value></block></value><value name="offset"><shadow type="math_number" id="UNeslXr78F6_j:8fgi)F"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="#77#48bwabcs/4cD@E5Z"><field name="NUM">400</field></shadow></value></block></statement></block><block type="pxt-on-start" id="$}Ayyz27.A5K55$*P!{t" x="0" y="0"><statement name="HANDLER"><block type="function_call" id="o$E`8uw+GI++:w:il|t["><mutation name="SETDICEPATTERN" functionid="F$%R/b4uVVJNze,130rm"></mutation><next><block type="function_call" id=".~W7(i!Twz[)f}[_,[a8"><mutation name="RollDice" functionid="PUA$U3zSKAS*](7o/G6e"></mutation></block></next></block></statement></block><block type="device_gesture_event" id="`zmpTe)hpjbyKd)K*92Z" x="588" y="52"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="function_call" id="bDz~pCh53/Ywt/!q-2XW"><mutation name="RollDice" functionid="PUA$U3zSKAS*](7o/G6e"></mutation></block></statement></block><block type="function_definition" id="DMbuoyo!;X3JCzcuuT`U" x="-22" y="204"><mutation name="SETDICEPATTERN" functionid="F$%R/b4uVVJNze,130rm"></mutation><field name="function_name">SETDICEPATTERN</field><statement name="STACK"><block type="variables_set" id=":hk2_!WbS]kyK?kO$9bb"><field name="VAR" id="sW*t+SYz(IuYW/xD|v!X">list</field><value name="VALUE"><block type="lists_create_with" id="H]HK:imtatwCCl*1mE1@" inline="false"><mutation items="6" horizontalafter="3"></mutation><value name="ADD0"><shadow type="math_number" id="Xlan.Ndx@4Z=kZB`o%c/"><field name="NUM">0</field></shadow><block type="device_build_image" id="QGfD7ZUwH@wh}md;-2]4"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></value><value name="ADD1"><shadow type="math_number" id="AHS|Uo!Aaw]IsLNl-p*+"><field name="NUM">1</field></shadow><block type="device_build_image" id="3G{@t%-,mMLL4,T7yZGU"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . . . . 
+        . # . . . 
+        . . . . .
+        `</field></block></value><value name="ADD2"><shadow type="math_number" id="1bpbbzyqVHumkR=f{,6c"><field name="NUM">0</field></shadow><block type="device_build_image" id="{cnFFNp7?ArnmeP2PD4t"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . # . . 
+        . # . . . 
+        . . . . .
+        `</field></block></value><value name="ADD3"><shadow type="math_number" id="8xTeVEPG7{#H)gC@K}t)"><field name="NUM">0</field></shadow><block type="device_build_image" id="4H?tdNu)m%vhbeeseE|/"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # . # . 
+        . . . . .
+        `</field></block></value><value name="ADD4"><shadow type="math_number" id="ant=Qt@Qon^+RNEL*(ei"><field name="NUM">0</field></shadow><block type="device_build_image" id="~7ofZSvapUpo|-@=53%+"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field></block></value><value name="ADD5"><shadow type="math_number" id="2oq_DFdX0o$+FD.^5{a4"><field name="NUM">0</field></shadow><block type="device_build_image" id="X`-G7?Us:`BH9ep$rln?"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # . # . 
+        . # . # . 
+        . . . . .
+        `</field></block></value></block></value></block></statement></block></xml>
